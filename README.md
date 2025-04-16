@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project demonstrates the difference in security operations with and without Simbian using Next.js, Tailwind CSS, and Framer Motion. The implementation focuses on scroll-triggered animations to create an engaging, interactive comparison that highlights Simbian's advantages.
 
-## Getting Started
+# Thought Process
+- I designed this comparison to:
 
-First, run the development server:
+- Clearly contrast "Without Simbian" (red theme) vs "With Simbian" (green theme)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Use progressive animations that trigger on scroll for better UX
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Maintain visual consistency while providing meaningful motion
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Ensure full responsiveness across all device sizes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The animation flow was carefully planned to:
 
-## Learn More
+First show the chaotic "Without Simbian" state with frequent alerts
 
-To learn more about Next.js, take a look at the following resources:
+Transition through the comparison section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Conclude with the organized "With Simbian" solution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Technologies Used
+- Next.js 14 (App Router)
 
-## Deploy on Vercel
+- Tailwind CSS for styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Framer Motion for animations (chosen for its excellent React integration and scroll detection)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React Icons for vector icons
+
+# Known Issues & Potential Improvements 
+- Could implement will-change properties for smoother animations
+
+- Might add loading states for complex animations 
+
+- Add more detailed hover effects
+
+- Include touch-friendly mobile animations 
+
+- More comprehensive comparison points
+
+- Real-world metrics integration  
+
+- More granular component splitting
+
+- Custom easing functions for animations
+

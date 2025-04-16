@@ -7,11 +7,9 @@ export default function Home() {
 
   return (
     <main>
-      <section className="py-20 bg-gradient-to-r from-blue-900 to-purple-900 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#141414] to-purple-900 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Security Operations Transformed
-          </h1>
+           
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             See the dramatic difference in security operations with and without Simbian
           </p>
